@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    background-color: #cfc91d;
+    display: block;
+    color: rgb(2, 2, 2);
+    margin: auto;
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+ 
+.heading{
+    
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.heading::after{
+    content: '' ;
+    width:163px ;
+    height:9px ;
+    background-image: url(../images/heading.png);
+    position: absolute;
+    bottom:-30px ;
+    left: 50%;
+    transform: translatex(-50%);
+
+
+}
+
+.icon{
+    font-size: 20px;
+    color: #02918c;
+}
+
+.subheading{
+    
+    font-size: 16px;
+    font-weight: 800;
+    color: #9da0a3;
+    margin: 20px 0;
+}
+
+.cardcontent{
+    color: #9da0a3;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+
+}
+.align-center{
+    align-items: center ;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+body{
+    font-family:"open sans", sans-serif;
+}
+
+
+ /* nav bar starts here*/
+ nav{
+    background-color: #02918c;
+ }
+ .logo{
+    width: 30%;
+ }
+ .menu{
+    width: 70%;
+ }
+ .menu ul{
+    text-align: right;
+ }
+ .menu ul li{
+    display: inline-block;
+ }
+ .menu ul li a{
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+ }
+ .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: aqua;
+    border-radius: 20px;
+    transition: 700ms;
+
+ }
+ 
+/* nav bar ends here*/
+
+/*Bnaer Start */
+#banner{
+    background-image: url(../images/C-_Users_Dell_Desktop_My-folio_images_logo.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgba(0, 0, 0,0.34 );
+    background-blend-mode: multiply;
+   
+
+}
+
+#banner .bannercnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#banner .bannercnt h3{
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: lowercase;
+
+}
+
+#banner .bannercnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+
+}
+
+#banner .bannercnt p{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#banner .bannercnt img{
+    margin: 50px 0;
+    display:inline-block;
+
+    }
+#banner .row{
+    
+    height: 730px;
+}
+/*Bnaer End */
+
+/*About starts*/
+#about{
+    padding: 98px 0;
+}
+
+#about .about_text {
+
+    width: 882px ;
+    height: 107px ;
+    margin: 70px auto 30px auto ;
+    text-align: center;
+    color: #9da0a3;
+}
+
+#about .about_text span{
+    font-size: 23px ;
+    font-weight: 800;
+    color: #9da0a3;
+}
+#about .aboutcard{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 40px 0;
+
+}
+#about .aboutcard:last-child{
+    border: none;
+}
+/*About Ends*/
+
+/*Service statrs*/
+#service{
+    padding: 75px 0;
+    background-image: url(../images/service.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.serviceleft{
+    width: 50%;
+}
+
+#service .heading{
+    text-align: left;
+}
+ #service .heading::after{
+    left: 0;
+      transform: translatex(0%);
+ }
+
+
+ .servicecard{
+    width: 50%;
+    margin-bottom: 40px;
+ }
+ .servicecard p{
+    padding: 0;
+    padding-right: 80px;
+ }
+
+ .servicetext{
+    margin: 50px 0;
+
+ }
+/*Service ends*/
+
+/*work starts*/
+
+#work {
+  padding: 90px;
+}
+#work p{
+    width: 883px;
+    margin: 70px auto 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+
+
+#workcard{
+    padding: 50px 0;
+}
+
+.workcard{
+    
+    width: 25%;
+}
+.workcard img{
+    width: 100%;
+    display: block;
+}
+/*work ends*/
+
+/*contact Start*/
+#contact{
+    padding: 90px;
+}
+#contact p{
+    width: 833px;
+    margin: 70px auto 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+
+}
+
+
+/*contact Ends*/
+
+
